@@ -22,6 +22,7 @@ module apb_slave (
       state <= next_state;
   end
  // 
+	
  always @(*) begin
      case(state)
      	
